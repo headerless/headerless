@@ -6,7 +6,7 @@ The Headerless Organisation committed itself to promote a streamlined license an
 
 The **F**ree and **O**pen **S**ource **S**oftware (FOSS) movement has created a prosperous and almost utopic ecosystem of sharing and collaborating. While the burden of tooling and services around creating, or contributing to FOSS projects has decreased dramatically over the last years, other topics such as licensing are complex to understand and represented itself as intransparent especially for beginners wanting to join the FOSS community. While permissive licenses such as the [MIT](https://opensource.org/licenses/MIT) and [Apache-2.0](https://opensource.org/licenses/Apache-2.0) are easy to understand and comply with, capturing the license situation of a project with mixed licenses on file level is overwhelming and discouraging.
 
-**Headerless.org** therefore promotes to use **no license or copyright headers** in software project and use the centralized approaches to proudly state your FOSS license of choice. In case of a mixed license project, follow the **[12Factory principles](https://12factor.net/dependencies)**  and split your project up into isolated dependencies, each with its individual license.
+**Headerless.org** therefore promotes to use **no license or copyright headers** in software project and use the centralized approaches to proudly state your FOSS license of choice. In case of a mixed license project, follow the **[12Factor principles](https://12factor.net/dependencies)**  and split your project up into isolated dependencies, each with its individual license.
 
 ## 5 Reasons to go Headerless
 
