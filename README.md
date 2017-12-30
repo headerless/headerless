@@ -8,6 +8,13 @@ The **F**ree and **O**pen **S**ource **S**oftware (FOSS) movement has created a 
 
 **Headerless.org** therefore promotes to use **no license or copyright headers** in software project and use the centralized approaches to proudly state your FOSS license of choice. In case of a mixed license project, follow the **[12Factor principles](https://12factor.net/dependencies)**  and split your project up into isolated dependencies, each with its individual license.
 
+### What should I do:
+- Remove license and copyright headers from source code:
+![no copyright & license header](assets/no-header.png)
+
+- Remove also SPDX identifier from headers:
+![no header with SPDX identifier](assets/no-header-spdx.png)
+
 ## 5 Reasons to go Headerless
 
 - **Reduce License Complexity:** People looking at your source code or planning to use your project for further work will have a hard time to go through all your source-files and looking at all the license headers, just to get an overview of the license situation.
