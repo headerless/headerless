@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Headerless.org
 
-You can use the [editor on GitHub](https://github.com/headerless/headerless/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The Headerless Organisation committed itself to promote a streamlined license and copyright process in FOSS projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Why Headerless
 
-### Markdown
+The **F**ree and **O**pen **S**ource **S**oftware (FOSS) movement has created a prosperous and almost utopic ecosystem of sharing and collaborating. While the burden of tooling and services around creating, or contributing to FOSS projects has decreased dramatically over the last years, other topics such as licensing are complex to understand and represented itself as intransparent especially for beginners wanting to join the FOSS community. While permissive licenses such as the [MIT](https://opensource.org/licenses/MIT) and [Apache-2.0](https://opensource.org/licenses/Apache-2.0) are easy to understand and comply with, capturing the license situation of a project with mixed licenses on file level is overwhelming and discouraging.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Headerless.org** therefore promotes to use **no license or copyright headers** in software project and use the centralized approaches to proudly state your FOSS license of choice. In case of a mixed license project, follow the **[12Factory principles](https://12factor.net/dependencies)**  and split your project up into isolated dependencies, each with its individual license.
 
-```markdown
-Syntax highlighted code block
+## 5 Reasons to go Headerless
 
-# Header 1
-## Header 2
-### Header 3
+- **Reduce License Complexity:** People looking at your source code or planning to use your project for further work will have a hard time to go through all your source-files and looking at all the license headers, just to get an overview of the license situation.
+- **Reduce Maintenance:** Having to maintain license and copyright headers in all your source files is a maintenance intensive tasks. Having to update the copyright year and adding new copyright for new maintainer not only takes time, but also creates a lot of noise in your commit history.
+- **Prevent Redundancy:** Most FOSS projects rely on a single license for the whole project. Mentioning the license in every file again is as redundant as adding the copyright year in every file, while your commit history clearly state the author and date of which your intellectual property has been created.
+- **Simplify License Compliance:** While almost all programming eco-systems come with easy ways to state your projects license and have ways to get a list of all licenses used by your projects dependencies, doing the same for license headers with various formats is difficult and known to false-positives.
+- **Empower Sharing Culture:** While license and copyright headers can easily be removed by copycats, permissive licenses explicitly state that copying parts of your source code is allowed, which boost the sharing and re-use culture.
 
-- Bulleted
-- List
+### Join the Movement
 
-1. Numbered
-2. List
+Making your project **Headerless.org** compliant is easy and painless:
 
-**Bold** and _Italic_ and `Code` text
+1. **Omit any copyright and license headers form all source files in your project.**
+1. **Follow the eco-system dependant (e.g. `package.json` for NPM) and independent (e.g. `LICENSE` file) best-practises to display your license choice.**
 
-[Link](url) and ![Image](src)
+If you want to promote that your project is compliant to **Headerless.org** or simply want to support the movement, add the **Headerless.org** to your projects:
+
+> [![Headerless.org](https://img.shields.io/badge/HEADER-LESS-brightgreen.svg)](http://headerless.org)
+
+``` text
+[![Headerless.org](https://img.shields.io/badge/HEADER-LESS-brightgreen.svg)](http://headerless.org)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/headerless/headerless/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
