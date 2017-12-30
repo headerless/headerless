@@ -23,7 +23,7 @@ Making your project **Headerless.org** compliant is easy and painless:
 1. **Omit any copyright and license headers form all source files in your project.**
 1. **Follow the eco-system dependant (e.g. `package.json` for NPM) and independent (e.g. `LICENSE` file) best-practises to display your license choice.**
 
-If you want to promote that your project is compliant to **Headerless.org** or simply want to support the movement, add the **Headerless.org** to your projects:
+If you want to promote that your project is compliant to **Headerless.org** or simply want to support the movement, add the **Headerless.org** badge to your projects:
 
 > [![Headerless.org](https://img.shields.io/badge/HEADER-LESS-brightgreen.svg)](http://headerless.org)
 
