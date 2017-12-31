@@ -24,7 +24,7 @@ Making your project **Headerless.org** compliant is easy and painless:
 1. **Omit any copyright and license headers from all source files in your project, including any SPDX license identifiers.**
 1. **Follow the ecosystem dependent (e.g. `package.json` for NPM) and independent (e.g. `LICENSE` file) best practises to display your license choice.**
 
-![no copyright and license header](assets/no-header.png)
+![no copyright and license header](no-header.png)
 
 If you want to promote that your project is compliant with **Headerless.org** or simply want to support the movement, add the **Headerless.org** badge to your projects:
 
